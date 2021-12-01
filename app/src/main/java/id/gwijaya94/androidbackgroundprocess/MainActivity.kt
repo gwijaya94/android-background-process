@@ -12,9 +12,16 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.toBgThread.setOnClickListener {
-            val intent = Intent(this, BackgroundThreadActivity::class.java)
-            startActivity(intent)
+        binding.apply {
+
+            toBgThread.setOnClickListener {
+                val intent = Intent(this@MainActivity, BackgroundThreadActivity::class.java)
+                startActivity(intent)
+            }
+            toServiceActivity.setOnClickListener {
+                val intent = Intent(this@MainActivity, ServiceActivity::class.java)
+                startActivity(intent)
+            }
         }
 
     }

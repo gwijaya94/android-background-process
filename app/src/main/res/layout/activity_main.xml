@@ -12,6 +12,10 @@
         android:id="@+id/to_bg_thread"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/to_background_thread"/>
+        android:text="@string/to_background_thread"/><Button
+        android:id="@+id/to_service_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/to_service_activity"/>
 
 </LinearLayout>

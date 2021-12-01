@@ -9,6 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidBackgroundProcess">
+        <service
+            android:name=".MyService"
+            android:enabled="true"
+            android:exported="true"></service>
+
+        <activity
+            android:name=".ServiceActivity"
+            android:exported="false" />
         <activity
             android:name=".BackgroundThreadActivity"
             android:exported="false" />
