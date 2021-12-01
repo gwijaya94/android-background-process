@@ -10,9 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidBackgroundProcess">
         <service
-            android:name=".MyService"
+            android:name=".services.MyService"
             android:enabled="true"
-            android:exported="true"></service>
+            android:exported="true" />
 
         <activity
             android:name=".ServiceActivity"

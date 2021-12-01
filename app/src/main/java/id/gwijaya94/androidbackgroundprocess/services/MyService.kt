@@ -1,4 +1,4 @@
-package id.gwijaya94.androidbackgroundprocess
+package id.gwijaya94.androidbackgroundprocess.services
 
 import android.app.Service
 import android.content.Intent

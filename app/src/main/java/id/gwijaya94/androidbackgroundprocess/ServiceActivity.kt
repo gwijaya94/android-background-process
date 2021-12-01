@@ -4,6 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import id.gwijaya94.androidbackgroundprocess.databinding.ActivityServiceBinding
+import id.gwijaya94.androidbackgroundprocess.services.MyService
 
 class ServiceActivity : AppCompatActivity() {
     private lateinit var binding: ActivityServiceBinding
