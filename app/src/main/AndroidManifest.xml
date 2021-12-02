@@ -9,10 +9,23 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidBackgroundProcess">
+        <receiver
+            android:name=".broadcastreceiver.SmsReceiver"
+            android:enabled="true"
+            android:exported="true"></receiver>
+
+        <activity
+            android:name=".broadcastreceiver.SmsReceiverActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AndroidBackgroundProcess.SmsReceiver" />
+        <activity
+            android:name=".broadcastreceiver.BroadcastReceiverActivity"
+            android:exported="false" />
+
         <service
             android:name=".services.MyBoundService"
             android:enabled="true"
-            android:exported="true"></service>
+            android:exported="true" />
         <service
             android:name=".services.MyJobIntentService"
             android:exported="false"

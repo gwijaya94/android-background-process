@@ -13,4 +13,14 @@
     <string name="start_bound_service">Start Bound Service</string>
     <string name="stop_bound_service">Stop bound Service</string>
     <string name="to_service_activity">To Service Activity</string>
+    <string name="to_broadcast_receiver">To Broadcast Receiver</string>
+
+    <string name="this_sms_receiver_app">Ini Aplikasi Sms Receiver</string>
+    <string name="download_file">Download a File</string>
+    <string name="coming_from">Coming From</string>
+    <string name="this_play">Oii, main kesini jadi ngga? sekarang yak.</string>
+    <string name="close">Tutup</string>
+    <string name="check_sms_permission">Check SMS Permission</string>
+    <string name="incoming_message">Incoming Message</string>
+    <string name="from">from : %s</string>
 </resources>

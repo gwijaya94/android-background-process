@@ -3,6 +3,7 @@ package id.gwijaya94.androidbackgroundprocess
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import id.gwijaya94.androidbackgroundprocess.broadcastreceiver.BroadcastReceiverActivity
 import id.gwijaya94.androidbackgroundprocess.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -20,6 +21,10 @@ class MainActivity : AppCompatActivity() {
             }
             toServiceActivity.setOnClickListener {
                 val intent = Intent(this@MainActivity, ServiceActivity::class.java)
+                startActivity(intent)
+            }
+            toBroadcastReceiver.setOnClickListener {
+                val intent = Intent(this@MainActivity, BroadcastReceiverActivity::class.java)
                 startActivity(intent)
             }
         }
