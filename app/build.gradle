@@ -46,6 +46,9 @@ dependencies {
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.0"
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.0"
     implementation "androidx.lifecycle:lifecycle-runtime-ktx:2.4.0"
+    implementation 'com.mikepenz:iconics-views:5.3.3'
+    implementation 'com.mikepenz:iconics-core:5.3.3'
+    implementation 'com.mikepenz:community-material-typeface:6.4.95.0-kotlin'
 
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'

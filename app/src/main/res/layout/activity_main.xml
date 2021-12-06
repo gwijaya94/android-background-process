@@ -24,5 +24,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/to_broadcast_receiver" />
+    <Button
+        android:id="@+id/to_notification_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/notification_activity" />
 
 </LinearLayout>

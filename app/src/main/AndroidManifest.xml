@@ -12,9 +12,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidBackgroundProcess">
+        <activity
+            android:name=".NotificationActivity"
+            android:exported="false" />
+
         <service
             android:name=".broadcastreceiver.DownloadService"
             android:permission="android.permission.BIND_JOB_SERVICE" />
+
         <receiver
             android:name=".broadcastreceiver.SmsReceiver"
             android:enabled="true"

@@ -27,6 +27,10 @@ class MainActivity : AppCompatActivity() {
                 val intent = Intent(this@MainActivity, BroadcastReceiverActivity::class.java)
                 startActivity(intent)
             }
+            toNotificationActivity.setOnClickListener{
+                val intent = Intent(this@MainActivity, NotificationActivity::class.java)
+                startActivity(intent)
+            }
         }
 
     }
