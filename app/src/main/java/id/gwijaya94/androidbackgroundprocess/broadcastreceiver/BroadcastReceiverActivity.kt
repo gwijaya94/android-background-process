@@ -19,6 +19,7 @@ class BroadcastReceiverActivity : AppCompatActivity(), View.OnClickListener {
         setContentView(binding?.root)
 
         binding?.btnPermission?.setOnClickListener(this)
+        binding?.btnDownload?.setOnClickListener(this)
 
 
     }
@@ -30,6 +31,9 @@ class BroadcastReceiverActivity : AppCompatActivity(), View.OnClickListener {
                 Manifest.permission.RECEIVE_SMS,
                 SMS_REQUEST_CODE
             )
+            R.id.btn_download -> {
+
+            }
         }
     }
 
@@ -60,5 +64,6 @@ class BroadcastReceiverActivity : AppCompatActivity(), View.OnClickListener {
     companion object {
         private const val SMS_REQUEST_CODE = 101
         const val INI_TEXT = "avc"
+        const val ACTION_DOWNLOAD_STATUS = "download_status"
     }
 }
