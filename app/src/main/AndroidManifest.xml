@@ -13,6 +13,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidBackgroundProcess">
         <activity
+            android:name=".taskbuilder.DetailTaskActivity"
+            android:parentActivityName=".taskbuilder.TaskBuilderActivity"
+            android:exported="false" />
+        <activity
+            android:name=".taskbuilder.TaskBuilderActivity"
+            android:launchMode="singleTop"
+            android:exported="false" />
+        <activity
             android:name=".NotificationActivity"
             android:exported="false" />
 
